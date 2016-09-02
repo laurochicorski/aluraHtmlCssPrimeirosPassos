@@ -8,11 +8,21 @@ body{
 
 h2{
     background-color: #B3A742;
+    background: -webkit-linear-gradient(top,#9c8F67,#C7BE9B);
+    background: -moz-linear-gradient(top,#9c8F67,#C7BE9B);
+    border-radius: 15px;
+    border: 1px solid black;
     padding-top:5px;
     padding-left:5px;
     padding-bottom:5px;
     padding-right:5px;
     color:#FFFFFF;
+}
+
+#banner{
+    top:0;
+    right: 0;
+    position:fixed;
 }
 #tb-nutrientes{
     width: 40%;
@@ -25,12 +35,50 @@ h2{
     background-color: #FFFFFF;
 }
 
+#conteudo{
+    float: right;
+    width: 700px;
+}
+
 nav ul li{
-    display: inline;
-    margin-right: 50px;
-;
+    background-color: #C7BE9B;
+    margin-bottom: 3px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    background-color: #9c8F67;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav{
+    float:left;
+    width: 240px;
 }
 
 #topo{
     text-align: center;
+}
+
+figure{
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Comic Sans MS', cursive;
+    border:1px solid black;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
